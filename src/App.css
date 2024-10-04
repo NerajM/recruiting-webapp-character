@@ -27,9 +27,18 @@
 }
 
 .App-section {
-  flex: 1 1 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  flex: 1 1 0;
+}
+
+.Char-sheet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: hsl(220deg 13% 13%);
+  color: white;
+  flex: 1 1 0;
 }
 
 .App-link {
